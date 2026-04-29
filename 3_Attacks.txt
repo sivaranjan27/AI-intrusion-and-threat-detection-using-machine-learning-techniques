@@ -1,0 +1,32 @@
+1) Dictionary Attack :
+
+Username :
+dummy
+Password :
+password
+123456
+qwerty
+admin
+pass123
+
+2) Bruteforce attack :
+
+Username :
+dummy
+Password :
+admin1
+admin2
+admin3
+admin4
+admin5
+
+3) Rainbow attack :
+
+Username :
+dummy
+Password :
+Admin@1234
+XyZ#789012
+Aa1!Bb2@Cc
+P@55W0rd!X
+Tg7$Yh9#Lp

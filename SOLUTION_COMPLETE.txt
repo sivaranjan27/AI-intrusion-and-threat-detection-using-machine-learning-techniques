@@ -1,0 +1,197 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║           ✓ TEXT VISIBILITY ISSUE - COMPLETELY FIXED                      ║
+║                                                                            ║
+║                    Security Attack Detection System                       ║
+║                       Full Streamlit Application                          ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+
+WHAT WAS FIXED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Updated CSS for ALL Streamlit elements
+✓ Added comprehensive text color styling for both Light and Dark modes
+✓ Fixed contrast issues in tables, inputs, labels, and alerts
+✓ Ensured CSS is properly applied via st.markdown()
+✓ Added theme switching in sidebar Settings
+✓ Light mode has black text on white (perfectly readable)
+✓ Dark mode has light text on dark background (comfortable viewing)
+
+
+HOW TO USE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. RUN THE APP:
+
+   Windows:    Double-click "run.bat"  OR  type: run.bat
+   Mac/Linux:  Type in terminal: ./run.sh  OR  streamlit run app.py
+
+2. WAIT FOR: "You can now view your Streamlit app in your browser"
+
+3. BROWSER OPENS AUTOMATICALLY - No need to copy-paste URL
+
+4. LOOK AT LEFT SIDEBAR:
+   • Find "Settings" at the top
+   • See "Theme Mode" buttons: Dark | Light
+   • Click "Light" for black text on white background
+
+5. ALL TEXT IS NOW VISIBLE!
+   ✓ Black text on white background
+   ✓ Clear labels and titles
+   ✓ Readable input fields
+   ✓ Visible table data
+   ✓ Distinct buttons and messages
+
+
+THE FEATURES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 TAB 1: LOGIN & ATTACK DETECTION
+   → Upload Excel with username/password
+   → Test login attempts
+   → Detects: Brute Force, Dictionary, Rainbow attacks
+   → Automatic email alerts (6+ failed attempts)
+   → Real-time statistics
+
+🔗 TAB 2: PHISHING DETECTION
+   → Enter any URL to analyze
+   → 6-point feature analysis
+   → Risk scoring (0-100%)
+   → 8 safety tips provided
+
+🚫 TAB 3: DOS INFORMATION
+   → Educational content
+   → 5 attack types explained
+   → Prevention strategies
+   → Emergency procedures
+
+💬 SIDEBAR CHATBOT
+   → Ask security questions
+   → Powered by Google Gemini AI
+   → Intelligent responses
+
+
+THEME COMPARISON:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     LIGHT MODE (NEW - RECOMMENDED)              │
+├─────────────────────────────────────────────────────────────────┤
+│ Background:         White (#ffffff)                              │
+│ Text:               Black (#1a1a1a) ← CLEARLY VISIBLE            │
+│ Cards:              Light gray (#f8f9fa)                         │
+│ Use for:            Daytime viewing                              │
+│ Best for:           Offices, classrooms, presentations           │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     DARK MODE (ORIGINAL)                        │
+├─────────────────────────────────────────────────────────────────┤
+│ Background:         Deep blue (#0f1419)                          │
+│ Text:               Light gray (#e0e0e0)                        │
+│ Cards:              Dark blue-gray (#1a1f29)                    │
+│ Use for:            Nighttime viewing                            │
+│ Best for:           Late night sessions                          │
+└─────────────────────────────────────────────────────────────────┘
+
+
+QUICK START (90 SECONDS):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Double-click "run.bat" (Windows) or type "./run.sh" (Mac/Linux)
+   
+2. Wait 5-10 seconds for: "Local URL: http://localhost:8501"
+
+3. Browser opens automatically
+
+4. Look at LEFT SIDEBAR → Find "Settings" → Click "Light"
+
+5. ALL TEXT IS NOW BLACK AND CLEARLY VISIBLE ✓
+
+6. Try Tab 1: Login, enter wrong password 6 times to trigger attack alert
+
+
+CREDENTIALS (ALREADY SET UP):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Gmail Service:
+  📧 From: vishwa.003@gmail.com
+  🔑 Password: hvpycoaqgo
+  👨‍💼 Admin: norepnect@gmail.com
+
+Gemini AI:
+  🤖 API Key: AIzaSJkgrBnDdeU93OEjUDtLtwE
+  📡 Model: models/gemini-flash-latest
+
+NO SETUP NEEDED - Ready to use immediately!
+
+
+FILES INCLUDED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Main Files:
+  ✓ app.py (800+ lines - complete Streamlit app)
+  ✓ requirements.txt (all dependencies)
+  ✓ run.bat (Windows launcher)
+  ✓ run.sh (Mac/Linux launcher)
+
+Python Modules:
+  ✓ utils/attack_detection.py (118 lines)
+  ✓ utils/phishing_detector.py (131 lines)
+  ✓ utils/email_service.py (107 lines)
+  ✓ utils/chatbot.py (112 lines)
+
+Documentation:
+  ✓ FINAL_INSTRUCTIONS.txt (THIS IS YOUR MAIN GUIDE)
+  ✓ FIX_TEXT_VISIBILITY.md (Theme switching guide)
+  ✓ STREAMLIT_SETUP.md (Detailed setup)
+  ✓ README_STREAMLIT.md (Complete documentation)
+
+
+WHAT TO READ NEXT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. THIS FILE (you're reading it!)
+2. FIX_TEXT_VISIBILITY.md (detailed theme guide)
+3. FINAL_INSTRUCTIONS.txt (complete instructions)
+4. Then just run the app!
+
+
+TROUBLESHOOTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: Text still not visible
+Solution: Click "Light" in sidebar Settings, then Ctrl+Shift+R to refresh
+
+Problem: App won't start
+Solution: Run "pip install -r requirements.txt" first
+
+Problem: Email not sending
+Solution: Check internet, verify Gmail app password
+
+Problem: Chatbot not responding
+Solution: Restart app, try different question
+
+
+SUCCESS INDICATORS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You'll know it's working when:
+  ✓ App opens at http://localhost:8501
+  ✓ Left sidebar shows "Settings" and "Theme Mode" options
+  ✓ Light mode shows BLACK TEXT on white background
+  ✓ Can click through all 3 tabs
+  ✓ Chatbot responds to messages
+  ✓ Login page works
+
+
+═════════════════════════════════════════════════════════════════════════════
+
+                    🎉 YOU'RE ALL SET! 🎉
+
+         Just run the app and enjoy your security system!
+                 Everything is ready to use.
+
+═════════════════════════════════════════════════════════════════════════════

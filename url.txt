@@ -1,0 +1,3 @@
+✓ Safe:        https://www.google.com
+⚠ Suspicious:  https://secure-verify-account.example.com
+✗ Phishing:    http://g00gle-security.verify.com
